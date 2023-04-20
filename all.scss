@@ -3,6 +3,8 @@
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
+@import "./stylesheet/helper/variables";
+
 //自定義
 @import "./layout/layout";
 @import "./stylesheet/pages/home"

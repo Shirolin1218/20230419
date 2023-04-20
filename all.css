@@ -10827,4 +10827,8 @@ body {
 header {
   background-color: white;
   height: 100px;
+}
+
+.result {
+  white-space: pre-wrap;
 }/*# sourceMappingURL=all.css.map */

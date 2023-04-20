@@ -18,7 +18,7 @@ const searchBtn = document.querySelector(".search")
 
 searchBtn.addEventListener("click", function () {
     console.log(input.valueAsNumber);
-    document.querySelector(".container").innerHTML = "";
+    document.querySelector(".result").innerHTML = "";
     let maxNum = input.valueAsNumber;
     let arr = [];
     let content = "";
@@ -42,6 +42,6 @@ searchBtn.addEventListener("click", function () {
         content += `${x}, `;
     });
     console.log(content);
-    document.querySelector(".container").innerHTML = content;
+    document.querySelector(".result").innerHTML = content;
     input.value = null;
 });
